@@ -15,12 +15,12 @@ function wishMe(){
     let day=new Date()
     let hours=day.getHours()
     if(hours>=0 && hours<12){
-        speak("Good Morning Vedant")
+        speak("Good Morning Sunny")
     }
     else if(hours>=12 && hours <16){
-        speak("Good afternoon Vedant")
+        speak("Good afternoon Sunny")
     }else{
-        speak("Good Evening Vedant")
+        speak("Good Evening Sunny")
     }
 }
 // window.addEventListener('load',()=>{
